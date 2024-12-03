@@ -56,9 +56,10 @@ def test():
 
 def main():
     with open("input/2") as ifile:
-        print(solve_part1(ifile))
-    with open("input/2") as ifile:
-        print(solve_part2(ifile))
+        a = solve_part1(ifile)
+        ifile.seek(0)
+        b = solve_part2(ifile)
+        print(a, b)
 
 if __name__ == "__main__":
     main()
