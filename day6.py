@@ -93,7 +93,6 @@ def test():
 ........#.
 #.........
 ......#...
-
 """
     )
     assert solve_part1(ifile) == 41
