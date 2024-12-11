@@ -1,5 +1,3 @@
-import copy
-
 def parse_input(ifile):
     grid = [[c for c in x.strip()] for x in ifile.readlines()]
     for y, row in enumerate(grid):
